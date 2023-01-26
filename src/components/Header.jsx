@@ -29,14 +29,14 @@ function MobileNavIcon({ open }) {
         d="M0 1H14M0 7H14M0 13H14"
         className={clsx(
           'origin-center transition',
-          open && 'scale-90 opacity-0'
+          open && 'scale-90 opacity-0',
         )}
       />
       <path
         d="M2 2L12 12M12 2L2 12"
         className={clsx(
           'origin-center transition',
-          !open && 'scale-90 opacity-0'
+          !open && 'scale-90 opacity-0',
         )}
       />
     </svg>
@@ -78,6 +78,7 @@ function MobileNavigation() {
             className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5"
           >
             <MobileNavLink href="#features">Features</MobileNavLink>
+            <MobileNavLink href="/posts">Blog</MobileNavLink>
             <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
             <MobileNavLink href="#pricing">Pricing</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
@@ -99,6 +100,7 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
+              <NavLink href="/posts">Blog</NavLink>
               <NavLink href="#features">Features</NavLink>
               <NavLink href="#testimonials">Testimonials</NavLink>
               <NavLink href="#pricing">Pricing</NavLink>
