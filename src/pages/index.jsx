@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>TaxPal - Accounting made simple for small businesses</title>
+        <title>Aware: LinkedIn superpowers for creators and social sellers.</title>
         <meta
           name="description"
-          content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+          content="Aware: LinkedIn superpowers for creators and social sellers."
         />
       </Head>
       <Header />
