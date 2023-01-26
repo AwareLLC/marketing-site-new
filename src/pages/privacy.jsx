@@ -21,7 +21,6 @@ export default function Home() {
 
 
 
-
 <div>
   <h1>PRIVACY NOTICE </h1>
   <p>Last updated January 09, 2023 </p>
@@ -71,7 +70,7 @@ export default function Home() {
   <p>The information we collect includes: </p>
   <p>Log and Usage Data. Log and usage data is service-related, diagnostic, usage, and performance information our servers automatically collect when you access or use our Services and which we record in log files. Depending on how you interact with us, this log data may include your IP address, device information, browser type, and settings and information about your activity in the Services (such as the date/time stamps associated with your usage, pages and files viewed, searches, and other actions you take such as which features you use), device event information (such as system activity, error reports (sometimes called &quot;crash dumps&quot;), and hardware settings). </p>
   <p>Device Data. We collect device data such as information about your computer, phone, tablet, or other device you use to access the Services. Depending on the device used, this device data may include information such as your IP address (or proxy server), device and application identification numbers, location, browser type, hardware model, Internet service provider and/or mobile carrier, operating system, and system configuration information.</p>
-  <p>Location Data. We collect location data such as information about your device's location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services. </p>
+  <p>Location Data. We collect location data such as information about your device&lsquo;s location, which can be either precise or imprecise. How much information we collect depends on the type and settings of the device you use to access the Services. For example, we may use GPS and other technologies to collect geolocation data that tells us your current location (based on your IP address). You can opt out of allowing us to collect this information either by refusing access to the information or by disabling your Location setting on your device. However, if you choose to opt out, you may not be able to use certain aspects of the Services. </p>
   <h3>2. HOW DO WE PROCESS YOUR INFORMATION? </h3>
   <p>In Short: We process your information to provide, improve, and administer our Services, communicate with you, for security and fraud prevention, and to comply with law. We may also process your information for other purposes with your consent. </p>
   <p>We process your personal information for a variety of reasons, depending on how you interact with our Services, including: </p>
@@ -87,7 +86,7 @@ export default function Home() {
   <p>To protect our Services. We may process your information as part of our efforts to keep our Services safe and secure, including fraud monitoring and prevention.</p>
   <p>To identify usage trends. We may process information about how you use our Services to better understand how they are being used so we can improve them. </p>
   <p>To determine the effectiveness of our marketing and promotional campaigns. We may process your information to better understand how to provide marketing and promotional campaigns that are most relevant to you. </p>
-  <p>To save or protect an individual's vital interest. We may process your information when necessary to save or protect an individual’s vital interest, such as to prevent harm. </p>
+  <p>To save or protect an individual&lsquo;s vital interest. We may process your information when necessary to save or protect an individual’s vital interest, such as to prevent harm. </p>
   <h3>3. WHAT LEGAL BASES DO WE RELY ON TO PROCESS YOUR INFORMATION? </h3>
   <p>In Short: We only process your personal information when we believe it is necessary and we have a valid legal reason (i.e., legal basis) to do so under applicable law, like with your consent, to comply with laws, to provide you with services to enter into or fulfill our contractual obligations, to protect your rights, or to fulfill our legitimate business interests. </p>
   <p>If you are located in the EU or UK, this section applies to you. </p>
@@ -153,8 +152,8 @@ export default function Home() {
   <p>In Short: We may transfer, store, and process your information in countries other than your own. </p>
   <p>Our servers are located in the United States. If you are accessing our Services from outside the United States, please be aware that your information may be transferred to, stored, and processed by us in our facilities and by those third parties with whom we may share your personal information (see &quot;WHEN AND WITH WHOM DO WE SHARE YOUR PERSONAL INFORMATION?&quot; above), in and other countries. </p>
   <p>If you are a resident in the European Economic Area (EEA) or United Kingdom (UK), then these countries may not necessarily have data protection laws or other similar laws as comprehensive as those in your country. However, we will take all necessary measures to protect your personal information in accordance with this privacy notice and applicable law. </p>
-  <p>European Commission's Standard Contractual Clauses: </p>
-  <p>We have implemented measures to protect your personal information, including by using the European Commission's Standard Contractual Clauses for transfers of personal information between our group companies and between us and our third-party providers. These clauses require all recipients to protect all personal information that they process originating from the EEA or UK in accordance with European data protection laws and regulations. Our Standard Contractual Clauses can be provided upon request. We have implemented similar appropriate safeguards with our third-party service providers and partners and further details can be provided upon request. </p>
+  <p>European Commission&lsquo;s Standard Contractual Clauses: </p>
+  <p>We have implemented measures to protect your personal information, including by using the European Commission&lsquo;s Standard Contractual Clauses for transfers of personal information between our group companies and between us and our third-party providers. These clauses require all recipients to protect all personal information that they process originating from the EEA or UK in accordance with European data protection laws and regulations. Our Standard Contractual Clauses can be provided upon request. We have implemented similar appropriate safeguards with our third-party service providers and partners and further details can be provided upon request. </p>
   <h3>7. HOW LONG DO WE KEEP YOUR INFORMATION? </h3>
   <p>In Short: We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law. </p>
   <p>We will only keep your personal information for as long as it is necessary for the purposes set out in this privacy notice, unless a longer retention period is required or permitted by law (such as tax, accounting, or other legal requirements). No purpose in this notice will require us to keep your personal information for longer than the period of time in which users have an account with us. </p>
@@ -190,6 +189,7 @@ export default function Home() {
   <p>In Short: Yes, we will update this notice as necessary to stay compliant with relevant laws. </p>
   <p>We may update this privacy notice from time to time. The updated version will be indicated by an updated &quot;Revised&quot; date and the updated version will be effective as soon as it is accessible. If we make material changes to this privacy notice, we may notify you either by prominently posting a notice of such changes or by directly sending you a notification. We encourage you to review this privacy notice frequently to be informed of how we are protecting your information.</p>
 </div>
+
 
 
 				</Container>
