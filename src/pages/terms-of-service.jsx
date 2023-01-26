@@ -54,7 +54,7 @@ export default function Home() {
           <p>Any use of the Platform, including use of the Platform through a third-party product that accesses Aware, is bound by these Terms of Service plus the following specific terms:</p>
           <h1>Damage and liability.</h1>
           <p>Any use of the Platform, including use of the Platform through a third-party product that accesses Aware, is bound by these Terms of Service plus the following specific terms:</p>
-          <ul role=&quot;list&quot;>
+          <ul>
             <li>No one has been banned for using Aware, but we’re not responsible if this happens or if your account is suspended.</li>
             <li>Don&lsquo;t mix Aware with other LinkedIn tools that have similar functionality.</li>
             <li>We don’t sell your information to third parties.</li>
