@@ -1,6 +1,6 @@
-import PostList from '../components/posts/post-list'
+import PostList from '../../components/posts/post-list'
 import Head from 'next/head'
-import { getAllPosts } from '../helpers/posts-utils'
+import { getAllPosts } from '../../helpers/posts-utils'
 import { Footer } from '@/components/Footer'
 import { Header } from '@/components/Header'
 import { NextSeo } from 'next-seo'

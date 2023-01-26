@@ -31,17 +31,19 @@ function PostCard({ post }) {
 							height="400"
 							alt="post image"
 						/>
-						<div>
-							<h3 className="text-center text-xl font-semibold">
-								{formattedDate}
-							</h3>
-						</div>
-						<div className="my-4 flex justify-evenly font-medium">
-							<h3 className="inline rounded-lg  border border-slate-300 bg-slate-100 px-2 text-base ">
-								{topic}
-							</h3>
-							<h2 className="text-lg">{readTime} read</h2>
-						</div>
+
+{/* 						<div> */}
+{/* 							<h3 className="text-center text-xl font-semibold"> */}
+{/* 								{formattedDate} */}
+{/* 							</h3> */}
+{/* 						</div> */}
+{/* 						<div className="my-4 flex justify-evenly font-medium"> */}
+{/* 							<h3 className="inline rounded-lg  border border-slate-300 bg-slate-100 px-2 text-base "> */}
+{/* 								{topic} */}
+{/* 							</h3> */}
+{/* 							<h2 className="text-lg">{readTime} read</h2> */}
+{/* 						</div> */}
+
 					</div>
 				</div>
 			</Link>
