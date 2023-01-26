@@ -112,7 +112,7 @@ export function Header() {
 						<div className="hidden md:block">
 							<NavLink href="https://app.useaware.co">Sign in</NavLink>
 						</div>
-						<Button href="https://app.useaware.co" color="blue">
+						<Button href="https://app.useaware.co" className="bg-primary">
 							<span>
 								Get started <span className="hidden lg:inline">today</span>
 							</span>
