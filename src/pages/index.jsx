@@ -26,7 +26,6 @@ export default function Home() {
       <Head>
         <title>Aware: LinkedIn superpowers for creators and social sellers.</title>
         <meta name="description" content="Aware: LinkedIn superpowers for creators and social sellers." />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
       <Header />
       <main>
