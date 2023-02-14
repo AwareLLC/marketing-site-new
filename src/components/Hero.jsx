@@ -20,7 +20,7 @@ export function Hero() {
           </svg>
           <span className="relative">superpowers</span>
         </span>{' '}
-        for creators and social sellers.
+        for creators and social sellers!
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">We remove the friction so you can get the most out of LinkedIn.</p>
       <div className="mt-10 flex justify-center gap-x-6">
