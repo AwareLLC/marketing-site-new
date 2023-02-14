@@ -26,16 +26,13 @@ export default function Home() {
       <Head>
         <title>Aware: LinkedIn superpowers for creators and social sellers.</title>
         <meta name="description" content="Aware: LinkedIn superpowers for creators and social sellers." />
-        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
       </Head>
       <Header />
       <main>
         <Hero />
       </main>
 
-			<!-- Netlify Identity Widget -->
-<!-- Needed only if you are using Netlify Identity feature -->
-<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+			<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </>
   )
 }
