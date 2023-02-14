@@ -32,6 +32,10 @@ export default function Home() {
       <main>
         <Hero />
       </main>
+
+			<!-- Netlify Identity Widget -->
+<!-- Needed only if you are using Netlify Identity feature -->
+<script type="text/javascript" src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </>
   )
 }
