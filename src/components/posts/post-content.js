@@ -29,7 +29,7 @@ function PostContent({ postData }) {
     //     year: 'numeric',
     // });
 
-    const imagePath = `/images/posts/${slug}/${image}`;
+    const imagePath = `/images/resources/${slug}/${image}`;
 
     const customRenderers = {
 
@@ -72,7 +72,7 @@ function PostContent({ postData }) {
         <div className="w-full px-12 py-4 font-Bai ">
             <div className='flex my-4'>
                 {/* <BsArrowLeft className='w-5 h-5 mx-2 my-auto' /> */}
-                    <span className="hover:font-semibold"><Link href='/posts' >Back to Posts</Link></span>
+                    <span className="hover:font-semibold"><Link href='/resources' >Back to Posts</Link></span>
             </div>
                 <div className='md:w-3/5 my-6 mx-auto  text-gray-800 font-Rubik  '>
                     <Image src={imagePath} width='800' height='400' alt='post image' className='rounded-2xl border-2 shadow-md' />

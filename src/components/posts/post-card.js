@@ -12,8 +12,8 @@ function PostCard({ post }) {
 		year: 'numeric',
 	})
 
-	const imagePath = `/images/posts/${slug}/${image}`
-	const linkPath = `/posts/${slug}`
+	const imagePath = `/images/resources/${slug}/${image}`
+	const linkPath = `/resources/${slug}`
 
 	return (
 		<>
