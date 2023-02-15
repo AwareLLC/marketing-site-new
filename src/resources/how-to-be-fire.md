@@ -1,6 +1,6 @@
 ---
-title: How To be Fire.
-description: How To be Fire.
+title: How To Be Fire.
+description: How To Be Fire.
 thumbnail: /images/uploads/analytics-network.png
 ---
 # How To Be Fire
