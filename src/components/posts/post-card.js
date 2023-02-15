@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 
 function PostCard({ post }) {
-	const { title, image, excerpt, date, slug, readTime, topic } = post
+	const { title, image, excerpt, date, thumbnail, slug, readTime, topic } = post
 
 	const formattedDate = new Date(date).toLocaleDateString('en-US', {
 		day: 'numeric',
@@ -12,7 +12,7 @@ function PostCard({ post }) {
 		year: 'numeric',
 	})
 
-	const imagePath = `/images/resources/${slug}/${image}`
+	const imagePath = `${thumbnail}`
 	const linkPath = `/resources/${slug}`
 
 	return (
