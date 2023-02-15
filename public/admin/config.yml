@@ -5,14 +5,28 @@ publish_mode: editorial_workflow
 media_folder: "images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src at
 collections:
-  - name: "resources"
-    label: "Resources"
-    files:
-    - label: "Home"
-      name: "home"
-      file: "content/home.md"
-      fields:
-        - { label: "Title", name: "title", widget: "string"}
-        - { label: "Image", name: "image", widget: "image" }
-        - { label: "Publish Date", name: "date", widget: "datetime" }
-        - { label: "Body", name: "body", widget: "markdown"}
+  - label: "Resources"
+    name: "resources"
+    folder: "src/resources"
+    create: true
+    editor:
+      preview: false
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Description (for SEO)", name: "description", widget: "string" }
+      - label: "Featured Image"
+        name: "thumbnail"
+        widget: "image"
+        choose_url: true
+        default: "/uploads/chocolate-dogecoin.jpg"
+        media_library:
+          config:
+            multiple: true
+      - { label: "Body", name: "body", widget: "markdown" }
+      - widget: select
+        label: "tags"
+        name: "tags"
+        multiple: true
+        create: true
+        optional: true
+        options: ["General", "Footer"]
