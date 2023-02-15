@@ -4,7 +4,7 @@ import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-call-to-action.jpg'
 
-export function CallToAction() {
+export function CallToAction2() {
   return (
     <section
       id="get-started-today"
@@ -21,13 +21,13 @@ export function CallToAction() {
       <Container className="relative">
         <div className="mx-auto max-w-lg text-center">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-            Ready to grow?
+            You're still reading? What are you waiting for?
           </h2>
           <p className="mt-4 text-lg tracking-tight text-white">
-            Growing your personal brand on LinkedIn can be overwhelming and time-consuming. Aware changes that.
+            Start your 7-day free trial. You've got nothing to lose, plus, you won't regret it.
           </p>
           <Button href="https://app.useaware.co" color="white" className="mt-10">
-            Get started today 
+            Let's go!
           </Button>
         </div>
       </Container>

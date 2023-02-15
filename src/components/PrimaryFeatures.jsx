@@ -5,36 +5,36 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotExpenses from '@/images/screenshots/expenses.png'
-import screenshotPayroll from '@/images/screenshots/payroll.png'
-import screenshotReporting from '@/images/screenshots/reporting.png'
-import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotContentEngagement from '@/images/screenshots/content-post-analytics.png'
+import screenshotContentAnalytics from '@/images/screenshots/analytics-posts.png'
+import screenshotTopLeads from '@/images/screenshots/analytics-top-leads.png'
+import screenshotEngagementActivity from '@/images/screenshots/analytics-outbound.png'
 
 const features = [
   {
-    title: 'Payroll',
+    title: 'Content analytics',
     description:
-      "Keep track of everyone's salaries and whether or not they've been paid. Direct deposit not supported.",
-    image: screenshotPayroll,
+      "See at a glance how your content is performing, or dive deep to know what to do more of.",
+    image: screenshotContentAnalytics,
   },
   {
-    title: 'Claim expenses',
+    title: 'Content engagement insights',
     description:
-      "All of your receipts organized into one place, as long as you don't mind typing in the data by hand.",
-    image: screenshotExpenses,
+      "Track comments and likes on your content as a whole, or on individual posts.",
+    image: screenshotContentEngagement,
   },
   {
-    title: 'VAT handling',
+    title: 'Engagement activity',
     description:
-      "We only sell our software to companies who don't deal with VAT at all, so technically we do all the VAT stuff they need.",
-    image: screenshotVatReturns,
+      "Stay on top of your engagement goals with our outbound engagement reporting.",
+    image: screenshotEngagementActivity,
   },
   {
-    title: 'Reporting',
+    title: 'Top leads insights',
     description:
-      'Easily export your data into an Excel spreadsheet where you can do whatever the hell you want with it.',
-    image: screenshotReporting,
-  },
+      "Know who's interested in you and your offerings, by knowing who's most active with your content.",
+    image: screenshotTopLeads,
+  }
 ]
 
 export function PrimaryFeatures() {
@@ -72,10 +72,10 @@ export function PrimaryFeatures() {
       <Container className="relative">
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
-            Everything you need to grow your to crush your social selling goals.
+            Actionable insights on content and engagement performance.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
-            Everything you need to grow your personal brand.
+            Track your activity and growth, and do more of what works.
           </p>
         </div>
         <Tab.Group

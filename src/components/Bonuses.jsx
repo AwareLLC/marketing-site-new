@@ -4,17 +4,18 @@ import { Tab } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
-import screenshotCustomFeed from '@/images/screenshots/custom-lists.png'
-import screenshotTopLeads from '@/images/screenshots/feed-community.png'
-import screenshotInfluencers from '@/images/screenshots/feed-influencers.png'
+import screenshotCommentSwipeFile from '@/images/screenshots/swipe-file-comments.png'
+import screenshotPostSwipeFile from '@/images/screenshots/swipe-file-posts.png'
+import screenshotCourse from '@/images/screenshots/course.png'
 
 const features = [
   {
-    name: 'Hand-curated influencer feeds',
-    summary: 'Engage with top influencers in your industry.',
+    name: 'Social Selling Course',
+    summary:
+      '$487 value!',
     description:
-      'Attract a lot of new eyeballs by engaging with top influencers in your niche.',
-    image: screenshotInfluencers,
+      'Access to our on-demand video course, 7-Figure Social Selling, detailing how co-founder Alex Boyd has brought in over $4.2M in sales from his LinkedIn presence, with step-by-step instructions for how you can do the same as well. Rated 5/5 stars by our students! This is priced at $487, but you get it for free when you sign up for Aware. ',
+    image: screenshotCourse,
     icon: function ReportingIcon() {
       let id = useId()
       return (
@@ -33,7 +34,7 @@ const features = [
             </linearGradient>
           </defs>
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M10.34 15.84c-.688-.06-1.386-.09-2.09-.09H7.5a4.5 4.5 0 110-9h.75c.704 0 1.402-.03 2.09-.09m0 9.18c.253.962.584 1.892.985 2.783.247.55.06 1.21-.463 1.511l-.657.38c-.551.318-1.26.117-1.527-.461a20.845 20.845 0 01-1.44-4.282m3.102.069a18.03 18.03 0 01-.59-4.59c0-1.586.205-3.124.59-4.59m0 9.18a23.848 23.848 0 018.835 2.535M10.34 6.66a23.847 23.847 0 008.835-2.535m0 0A23.74 23.74 0 0018.795 3m.38 1.125a23.91 23.91 0 011.014 5.395m-1.014 8.855c-.118.38-.245.754-.38 1.125m.38-1.125a23.91 23.91 0 001.014-5.395m0-3.46c.495.413.811 1.035.811 1.73 0 .695-.316 1.317-.811 1.73m0-3.46a24.347 24.347 0 010 3.46" />
+						<path stroke-linecap="round" stroke-linejoin="round" d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
 					</svg>
 
         </>
@@ -41,36 +42,36 @@ const features = [
     },
   },
   {
-    name: 'Top leads & Community',
-    summary:
-      'Aware surfaces the content of those that engage with you the most.',
+    name: 'LinkedIn Post Swipe file',
+    summary: 'Get post-writing inspiration from the best.',
     description:
-      'Nurture your budding and existing relationships by staying engaged with your leads and community.',
-    image: screenshotTopLeads,
+      'Our LinkedIn Post Swipe File, containing dozens of examples of effective posts you can get inspiration from, or use as a template.',
+    image: screenshotPostSwipeFile,
     icon: function InventoryIcon() {
       return (
         <>
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
-						<path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
-					</svg>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+</svg>
+
         </>
       )
     },
   },
   {
-    name: 'Custom feeds',
+    name: 'LinkedIn Comment Swipe File',
     summary:
-      "The LinkedIn feed is useless, and engaging is time-consuming. We solved that.",
+      'Get comment-writing inspiration from the best.',
     description:
-      'Create unlimited custom feeds of people you want to engage with: prospect lists, customer lists, competitors, advocates and influencers - you name it.',
-    image: screenshotCustomFeed,
+      'Our LinkedIn Comment Swipe File, containing dozens of examples of effective comments you can get inspiration from, or use as a template.',
+    image: screenshotCommentSwipeFile,
     icon: function ContactsIcon() {
       return (
         <>
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-6 h-6">
-						<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 12h16.5m-16.5 3.75h16.5M3.75 19.5h16.5M5.625 4.5h12.75a1.875 1.875 0 010 3.75H5.625a1.875 1.875 0 010-3.75z" />
-					</svg>
+  <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" />
+</svg>
+
         </>
       )
     },
@@ -96,15 +97,15 @@ function Feature({ feature, isActive, className, ...props }) {
       <h3
         className={clsx(
           'mt-6 text-sm font-medium',
-          isActive ? 'text-primary ' : 'text-slate-600'
+          isActive ? 'text-primary ' : 'text-white'
         )}
       >
         {feature.name}
       </h3>
-      <p className="mt-2 font-display text-xl text-slate-900">
+      <p className="mt-2 font-display text-xl text-white">
         {feature.summary}
       </p>
-      <p className="mt-4 text-sm text-slate-600">{feature.description}</p>
+      <p className="mt-4 text-sm text-white">{feature.description}</p>
     </div>
   )
 }
@@ -187,22 +188,14 @@ function FeaturesDesktop() {
   )
 }
 
-export function SecondaryFeatures() {
+export function Bonuses() {
   return (
     <section
-      id="secondary-features"
+      id="bonuses"
       aria-label="Features for simplifying everyday business tasks"
-      className="pt-4 pb-14 sm:pb-20 sm:pt-8 lg:pb-32"
+      className="pt-4 pb-14 sm:pb-20 sm:pt-4 lg:pb-32"
     >
       <Container>
-        <div className="mx-auto max-w-2xl md:text-center">
-          <h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-            Engage where it matters, when it matters.
-          </h2>
-          <p className="mt-4 text-lg tracking-tight text-slate-700">
-            Aware helps guide you, yet you have complete control.
-          </p>
-        </div>
         <FeaturesMobile />
         <FeaturesDesktop />
       </Container>
