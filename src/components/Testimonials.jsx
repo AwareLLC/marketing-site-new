@@ -2,8 +2,6 @@ import Image from 'next/image'
 
 import { Container } from '@/components/Container'
 import avatarImage1 from '@/images/avatars/graham.jpeg'
-import avatarImage2 from '@/images/avatars/charles.jpeg'
-import avatarImage3 from '@/images/avatars/avatar-3.png'
 import avatarImage4 from '@/images/avatars/charles.jpeg'
 import avatarImage5 from '@/images/avatars/avatar-5.png'
 
