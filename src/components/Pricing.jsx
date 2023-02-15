@@ -113,7 +113,7 @@ export function Pricing() {
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
               <span className="relative">Priced so low</span>
             </span>{' '}
-            you can't say no.
+            you can&apos;t say no.
           </h2>
           <p className="mt-4 text-lg text-slate-400">
             Sign up today and the the Early Bird pricing (50% off) for life.
@@ -145,12 +145,12 @@ export function Pricing() {
 
         <div className="md:text-center mt-16">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl">
-						And if it's not already a 
+						And if it&apos;s not already a 
             <span className="relative whitespace-nowrap">
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
               <span className="relative"> no-brainer,</span>
             </span>{' '}
-						<br />you&apos;'ll also get:
+						<br />you&apos;ll also get:
           </h2>
         </div>
 
