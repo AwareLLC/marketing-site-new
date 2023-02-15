@@ -2,5 +2,17 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
-media_folder: "static/images/uploads" # Media files will be stored in the repo under static/images/uploads
+media_folder: "images/uploads" # Media files will be stored in the repo under static/images/uploads
 public_folder: "/images/uploads" # The src at
+collections:
+  - name: "resources"
+    label: "Resources"
+    files:
+    - label: "Home"
+      name: "home"
+      file: "content/home.md"
+      fields:
+        - { label: "Title", name: "title", widget: "string"}
+        - { label: "Image", name: "image", widget: "image" }
+        - { label: "Publish Date", name: "date", widget: "datetime" }
+        - { label: "Body", name: "body", widget: "markdown"}

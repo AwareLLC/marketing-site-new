@@ -1,11 +1,12 @@
 ---
-title: 'Poppin and poopin'
+title: 'How to Grow on LinkedIn'
 date: '2023-01-26'
 updatedDate: ''
 image: reporting.png
-excerpt: NextJS is a the React framework for production - it makes building fullstack React apps and sites a breeze and ships with built-in SSR.
+excerpt: The best guide on how to grow your personal brand on LinkedIn.
 topic: 'react-js'
 readTime: '3 min'
 ---
 
-## Poppin' and poopin'
+## Header
+
