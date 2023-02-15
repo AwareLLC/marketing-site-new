@@ -67,7 +67,7 @@ export default function Home() {
 					<Container>
 						<div className="mx-auto max-w-4xl md:text-center">
 							<h2 className="font-display text-3xl tracking-tight text-slate-900 sm:text-4xl">
-								Invite your team
+								And don't forget to bring your team along for the ride.
 							</h2>
 							<p className="mt-4 mb-8 text-lg tracking-tight text-slate-700">
 								Include your team for exponential growth.
