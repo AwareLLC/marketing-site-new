@@ -22,7 +22,7 @@ const testimonials = [
   [
     {
       content:
-        "I'm smiling because I spent so much time inside of linkedin where you've just gathered everything that I'm looking for of onto a dashboard. So the time that I would have spent, you know, scrolling, skim scan, scroll and, and follow up, etcetera, this presents a far clearer picture.",
+        "I'm smiling because I spend so much time inside of LinkedIn where you've just gathered everything that I'm looking for into a dashboard. So the time that I would have spent scrolling, skimming, scanning, and following up, etcetera... this presents a far clearer picture.",
       author: {
         name: 'Graham Riley',
         role: 'CEO at MAVERRIK',
@@ -33,7 +33,7 @@ const testimonials = [
   [
     {
       content:
-        "Aware's linkedin activity monitoring is unique and is helping me stay up to date on posts from key contacts",
+        "Aware's LinkedIn activity monitoring is unique and is helping me stay up to date on posts from key contacts.",
       author: {
         name: 'Jay',
         role: 'Thrive',
