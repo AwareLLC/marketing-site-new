@@ -15,7 +15,7 @@ import ReactMarkdown from 'react-markdown';
 
 function PostContent({ postData }) {
 
-    const { title, image, date, slug, readTime, topic, content, updatedDate } = postData;
+    const { title, image, date, slug, readTime, thumbnail, topic, content, updatedDate } = postData;
 
     // const formattedDate = new Date(date).toLocaleDateString('en-US', {
     //     day: 'numeric',
