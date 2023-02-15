@@ -150,7 +150,7 @@ export function Pricing() {
               <SwirlyDoodle className="absolute top-1/2 left-0 h-[1em] w-full fill-blue-400" />
               <span className="relative"> no-brainer,</span>
             </span>{' '}
-						<br />you'll also get:
+						<br />you&apos;'ll also get:
           </h2>
         </div>
 
