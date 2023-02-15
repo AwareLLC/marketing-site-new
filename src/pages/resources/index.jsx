@@ -8,13 +8,13 @@ import { NextSeo } from 'next-seo'
 function AllPost({ posts }) {
 	return (
 		<>
-			<NextSeo title="All post" description="A list of all blog post" />
+			<NextSeo title="All resources" description="A list of all resources" />
 
 			<Head>
-				<title>TaxPal - Accounting made simple for small businesses</title>
+				<title>Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed.</title>
 				<meta
 					name="description"
-					content="Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited."
+					content="Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed."
 				/>
 			</Head>
 			<Header />

@@ -11,7 +11,7 @@ function PostList({ posts, heading }) {
 		)
 	return (
 		<div className="font-Rubik w-full text-gray-800 ">
-			<div className="flex max-w-screen-2xl flex-wrap justify-evenly overflow-hidden px-2 py-4">
+			<div className="flex max-w-4xl m-auto flex-wrap justify-evenly overflow-hidden px-2 py-4">
 				<div className="w-full md:py-6 md:px-14 ">
 					<h1 className="font-Bai my-2 text-center text-2xl font-bold md:my-0 md:text-left md:text-3xl ">
 						{heading ? heading : 'All Posts'}
