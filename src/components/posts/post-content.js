@@ -29,7 +29,7 @@ function PostContent({ postData }) {
     //     year: 'numeric',
     // });
 
-    const imagePath = `/images/resources/${slug}/${image}`;
+    const imagePath = `/images/uploads/${slug}`;
 
     const customRenderers = {
 
