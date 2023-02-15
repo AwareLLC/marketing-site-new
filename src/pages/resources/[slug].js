@@ -1,15 +1,30 @@
 import PostContent from '../../components/posts/post-content'
+import Head from 'next/head'
 import { getPostData, getPostsFiles } from '../../helpers/posts-utils'
+import { Header } from '@/components/Header'
+import { Footer } from '@/components/Footer'
 import { NextSeo } from 'next-seo';
 
 function SinglePost({ data }) {
     return (
         <>
-            <NextSeo
-                title={data.title}
-                description={data.excerpt}
+          <NextSeo
+              title={data.title}
+              description={data.excerpt}
+          />
+
+          <Head>
+            <title>Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed.</title>
+            <meta
+              name="description"
+              content="Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed."
             />
+          </Head>
+          <Header />
+          <main>
             <PostContent postData={data} />
+          </main>
+          <Footer />
         </>
     )
 }

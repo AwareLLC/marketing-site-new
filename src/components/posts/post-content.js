@@ -70,15 +70,12 @@ function PostContent({ postData }) {
     return (
         <>
         <div className="w-full px-12 py-4 font-Bai ">
-            <div className='flex my-4'>
-                {/* <BsArrowLeft className='w-5 h-5 mx-2 my-auto' /> */}
-                    <span className="hover:font-semibold"><Link href='/resources' >Back to Posts</Link></span>
-            </div>
                 <div className='md:w-3/5 my-6 mx-auto  text-gray-800 font-Rubik  '>
-                    <Image src={imagePath} width='800' height='400' alt='post image' className='rounded-2xl border-2 shadow-md' />
                     <h1 className='text-4xl font-semibold my-3 font-Bai text-center'>{title}</h1>
                     {/* <h2 className='text-xl font-medium font-Bai text-center text-gray-500'>{formattedDate}- {readTime} read</h2> */}
                     {/* <h3 className='mx-auto text-lg px-2 py-1 border bg-slate-100 border-slate-300 w-1/2 md:w-2/12 text-center  my-4 rounded-lg '><Link href={`/topics/${topic}`}>{topic}</Link></h3> */}
+
+                    <Image src={imagePath} width='600' height='400' alt='post image' className='rounded-2xl border-2 shadow-md' />
                 <hr />
                     <article className="prose prose-slate prose-img:rounded-xl prose-headings:underline prose-a:text-blue-600 lg:prose-lg my-4">
                         <ReactMarkdown components={customRenderers}>{content}</ReactMarkdown>
