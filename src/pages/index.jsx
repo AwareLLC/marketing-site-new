@@ -19,9 +19,6 @@ import featureImage1 from '@/images/screenshots/feed-quick-reply.png'
 import featureImage2 from '@/images/screenshots/users.png'
 
 export default function Home() {
-  loadIntercom({
-    appId: 'rjg6lgu1',
-  })
 
   return (
     <>
@@ -93,4 +90,8 @@ export default function Home() {
 			<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </>
   )
+
+  loadIntercom({
+    appId: 'rjg6lgu1',
+  })
 }
