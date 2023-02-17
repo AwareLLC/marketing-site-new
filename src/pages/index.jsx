@@ -14,6 +14,7 @@ import { Pricing } from '@/components/Pricing'
 import { PrimaryFeatures } from '@/components/PrimaryFeatures'
 import { SecondaryFeatures } from '@/components/SecondaryFeatures'
 import { Testimonials } from '@/components/Testimonials'
+import Script from 'next/script'
 
 import featureImage1 from '@/images/screenshots/feed-quick-reply.png'
 import featureImage2 from '@/images/screenshots/users.png'
@@ -28,6 +29,16 @@ export default function Home() {
       <Head>
         <title>Aware: LinkedIn superpowers for creators and social sellers.</title>
         <meta name="description" content="Aware: LinkedIn superpowers for creators and social sellers." />
+
+        <Script id="google-analytics" strategy="afterInteractive">
+        {`
+          window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+					gtag('js', new Date());
+					gtag('config', 'G-6DXFBF1RMT');
+        `}
+      </Script>
+				<Script async src="https://www.googletagmanager.com/gtag/js?id=G-6DXFBF1RMT" strategy="afterInteractive"></Script>
+
       </Head>
       <Header />
       <main>
