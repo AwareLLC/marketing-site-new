@@ -5,3 +5,20 @@
 #__next {
   min-height: 100%;
 }
+
+article h1 {
+  font-size: 3rem;
+}
+
+article h2 {
+  font-size: 2rem;
+}
+
+article h3 {
+  font-size: 1rem;
+}
+
+article p {
+  padding: 12px 0;
+}
+
