@@ -37,9 +37,9 @@ function MobileNavigation() {
         </Transition.Child>
         <Transition.Child as={Fragment} enter="duration-150 ease-out" enterFrom="opacity-0 scale-95" enterTo="opacity-100 scale-100" leave="duration-100 ease-in" leaveFrom="opacity-100 scale-100" leaveTo="opacity-0 scale-95">
           <Popover.Panel as="div" className="absolute inset-x-0 top-full mt-4 flex origin-top flex-col rounded-2xl bg-white p-4 text-lg tracking-tight text-slate-900 shadow-xl ring-1 ring-slate-900/5">
-            <MobileNavLink href="#features">Features</MobileNavLink>
-            <MobileNavLink href="#testimonials">Testimonials</MobileNavLink>
-            <MobileNavLink href="#pricing">Pricing</MobileNavLink>
+            <MobileNavLink href="/#features">Features</MobileNavLink>
+            <MobileNavLink href="/#testimonials">Testimonials</MobileNavLink>
+            <MobileNavLink href="/#pricing">Pricing</MobileNavLink>
             <MobileNavLink href="/resources">Resources</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
             <MobileNavLink href="https://app.useaware.co">Sign in</MobileNavLink>
@@ -60,9 +60,9 @@ export function Header() {
               <Logo className="h-10 w-auto" />
             </Link>
             <div className="hidden md:flex md:gap-x-6">
-              <NavLink href="#features">Features</NavLink>
-              <NavLink href="#testimonials">Testimonials</NavLink>
-              <NavLink href="#pricing">Pricing</NavLink>
+              <NavLink href="/#features">Features</NavLink>
+              <NavLink href="/#testimonials">Testimonials</NavLink>
+              <NavLink href="/#pricing">Pricing</NavLink>
               <NavLink href="/resources">Resources</NavLink>
             </div>
           </div>
