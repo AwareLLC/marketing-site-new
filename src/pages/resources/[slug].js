@@ -14,10 +14,10 @@ function SinglePost({ data }) {
           />
 
           <Head>
-            <title>Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed.</title>
+            <title>Engage on LinkedIn, at lightning speed, with curated, dynamic, and custom feeds. Plus: Analytics.</title>
             <meta
               name="description"
-              content="Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed."
+              content="Engage on LinkedIn, at lightning speed, with curated, dynamic, and custom feeds. Plus: Analytics."
             />
           </Head>
           <Header />

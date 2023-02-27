@@ -10,13 +10,13 @@ function AllPost({ posts }) {
 		<>
 			<NextSeo title="All resources" description="A list of all resources" />
 
-			<Head>
-				<title>Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed.</title>
-				<meta
-					name="description"
-					content="Aware: Engage on LinkedIn with curated, dynamic, and custom feeds, at lightning speed."
-				/>
-			</Head>
+      <Head>
+        <title>Engage on LinkedIn, at lightning speed, with curated, dynamic, and custom feeds. Plus: Analytics.</title>
+        <meta
+          name="description"
+          content="Engage on LinkedIn, at lightning speed, with curated, dynamic, and custom feeds. Plus: Analytics."
+        />
+      </Head>
 			<Header />
 			<main>
 				<PostList posts={posts} />

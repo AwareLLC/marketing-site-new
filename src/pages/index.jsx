@@ -23,8 +23,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Aware: LinkedIn superpowers for creators and social sellers.</title>
-        <meta name="description" content="Aware: LinkedIn superpowers for creators and social sellers." />
+        <title>Engage on LinkedIn, at lightning speed, with curated, dynamic, and custom feeds. Plus: Analytics.</title>
+        <meta name="description" content="Engage on LinkedIn, at lightning speed, with curated, dynamic, and custom feeds. Plus: Analytics." />
       </Head>
       <Header />
       <main>
