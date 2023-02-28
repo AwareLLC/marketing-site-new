@@ -69,7 +69,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
           ${price}
         </span>
         <span className="ml-4 order-first font-display text-5xl font-light tracking-tight text-white">
-          ${price / 2}0
+          ${price / 2}0 / month
         </span>
       </p>
       <ul
