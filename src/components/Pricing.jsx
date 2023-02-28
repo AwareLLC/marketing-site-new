@@ -55,6 +55,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
         featured ? 'order-first bg-primary py-8 lg:order-none' : 'lg:py-8'
       )}
     >
+
       <h3 className="mt-5 font-display text-lg text-white">{name}</h3>
       <p
         className={clsx(
@@ -69,7 +70,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
           ${price}
         </span>
         <span className="ml-4 order-first font-display text-5xl font-light tracking-tight text-white">
-          ${price / 2}0 / month
+          ${price / 2}0/mo
         </span>
       </p>
       <ul
