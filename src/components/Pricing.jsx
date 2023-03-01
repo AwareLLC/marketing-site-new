@@ -127,7 +127,7 @@ export function Pricing() {
             name="Growth Exploder"
             price="39"
             description="One plan to grow your LinkedIn following in lightning speed."
-            href="/register"
+            href="https://app.useaware.co/users/sign_up"
             features={[
               'Content analytics',
               'Content engagement analytics',

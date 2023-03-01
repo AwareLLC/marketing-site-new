@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             Growing your personal brand on LinkedIn can be overwhelming and time-consuming. Aware changes that.
           </p>
-          <Button href="https://app.useaware.co" color="white" className="mt-10">
+          <Button href="https://app.useaware.co/users/sign_up" color="white" className="mt-10">
             Get started today 
           </Button>
         </div>
