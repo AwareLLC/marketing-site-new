@@ -21,7 +21,7 @@ export default function Document(props) {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend:wght@400;500&display=swap"
 
         />
-        <Script>
+        <Script id="firstPromoter">
     {`
           (function(w){w.fpr=w.fpr||function(){w.fpr.q = w.fpr.q||[];w.fpr.q[arguments[0]=='set'?'unshift':'push'](arguments);};})(window);
           fpr("init", {cid:"5mps9ho5"}); 
