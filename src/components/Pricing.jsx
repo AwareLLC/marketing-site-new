@@ -120,14 +120,13 @@ export function Pricing() {
             Sign up today and get the Early Bird pricing (50% off) for life.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-1 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-3 xl:mx-0 xl:gap-x-8">
-          <div />
+        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-2 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">
           <Plan
             featured
-            name="Growth Exploder"
+            name="Growth Exploder: Personal"
             price="39"
-            description="One plan to grow your LinkedIn following in lightning speed."
-            href="https://app.useaware.co/users/sign_up"
+            description="Grow your personal brand on LinkedIn at lightning speed."
+            href="https://app.useaware.co/users/sign_up?plan=1"
             features={[
               'Content analytics',
               'Content engagement analytics',
@@ -140,6 +139,17 @@ export function Pricing() {
               'Hand-curated Influencer list engagement feed',
               'Create unlimited custom engagement feeds',
               'Quick-response support'
+            ]}
+          />
+          <Plan
+            featured
+            name="Growth Exploder: Business"
+            price="49"
+            description="Grow your business brand on LinkedIn at lightning speed."
+            href="https://app.useaware.co/users/sign_up?plan=2"
+            features={[
+              'Everything in the Personal plan',
+              'Ability to engage on behalf of your Company/Pages'
             ]}
           />
         </div>
