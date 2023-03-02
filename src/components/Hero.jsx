@@ -25,7 +25,7 @@ export function Hero() {
         </span>
             , with curated, dynamic, and custom feeds.
       </h1>
-      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">Guesswork and headaches not included.</p>
+      <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">Engage as yourself <b>or your business pages</b>.</p>
       <div className="mt-10 flex justify-center gap-x-6">
         <Button href="https://app.useaware.co/users/sign_up">Get started</Button>
         {/* 
