@@ -51,7 +51,7 @@ function Plan({ name, price, description, href, features, featured = false }) {
   return (
     <section
       className={clsx(
-        'flex flex-col rounded-3xl px-6 sm:px-8',
+        'flex flex-col rounded-3xl m-4 px-6 sm:px-8',
         featured ? 'order-first bg-primary py-8 lg:order-none' : 'lg:py-8'
       )}
     >
@@ -120,7 +120,7 @@ export function Pricing() {
             Sign up today and get the Early Bird pricing (50% off) for life.
           </p>
         </div>
-        <div className="-mx-4 mt-16 grid max-w-2xl grid-cols-2 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none lg:grid-cols-2 xl:mx-0 xl:gap-x-8">
+        <div className="-mx-4 mt-16 max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-y-10 sm:mx-auto lg:-mx-8 lg:max-w-none xl:mx-0 xl:gap-x-8">
           <Plan
             featured
             name="Growth Exploder: Personal"
