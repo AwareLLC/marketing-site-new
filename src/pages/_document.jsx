@@ -30,7 +30,7 @@ export default function Document(props) {
         </Script>
         <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
 
-				<script>
+				<Script>
           {`
 				!function(f,b,e,v,n,t,s)
 				{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -43,10 +43,7 @@ export default function Document(props) {
 				fbq('init', '630691228939385');
 				fbq('track', 'PageView');
           `}
-				</script>
-				<noscript><img height="1" width="1" style="display:none"
-				src="https://www.facebook.com/tr?id=630691228939385&ev=PageView&noscript=1"
-				/></noscript>
+				</Script>
 
         <Script id="profitwell-js" strategy="lazyOnload" data-pw-auth="600492d9a1f8f150cc69b5b5329e9cc2">
           {`
