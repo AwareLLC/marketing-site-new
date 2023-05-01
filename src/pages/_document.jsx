@@ -44,9 +44,6 @@ export default function Document(props) {
 				fbq('track', 'PageView');
           `}
 				</Script>
-				<noscript><img height="1" width="1" style="display:none"
-				src="https://www.facebook.com/tr?id=630691228939385&ev=PageView&noscript=1"
-				/></noscript>
 
         <Script id="profitwell-js" strategy="lazyOnload" data-pw-auth="600492d9a1f8f150cc69b5b5329e9cc2">
           {`
