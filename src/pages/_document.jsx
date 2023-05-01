@@ -31,8 +31,6 @@ export default function Document(props) {
         <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
 
         <Script strategy="lazyOnload">
-          {`
-          `}
 				</Script>
 
         <Script id="profitwell-js" strategy="lazyOnload" data-pw-auth="600492d9a1f8f150cc69b5b5329e9cc2">
