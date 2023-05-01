@@ -30,7 +30,7 @@ export default function Document(props) {
         </Script>
         <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
 
-				<Script>
+        <Script strategy="lazyOnload">
           {`
 				!function(f,b,e,v,n,t,s)
 				{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
