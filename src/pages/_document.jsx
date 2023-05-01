@@ -33,6 +33,7 @@ export default function Document(props) {
 
 				<!-- Meta Pixel Code -->
 				<script>
+          {`
 				!function(f,b,e,v,n,t,s)
 				{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
 				n.callMethod.apply(n,arguments):n.queue.push(arguments)};
@@ -43,6 +44,7 @@ export default function Document(props) {
 				'https://connect.facebook.net/en_US/fbevents.js');
 				fbq('init', '630691228939385');
 				fbq('track', 'PageView');
+          `}
 				</script>
 				<noscript><img height="1" width="1" style="display:none"
 				src="https://www.facebook.com/tr?id=630691228939385&ev=PageView&noscript=1"
