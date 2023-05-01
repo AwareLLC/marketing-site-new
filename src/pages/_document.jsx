@@ -30,9 +30,6 @@ export default function Document(props) {
         </Script>
         <script src="https://cdn.firstpromoter.com/fpr.js" async></script>
 
-        <Script strategy="lazyOnload">
-				</Script>
-
         <Script id="profitwell-js" strategy="lazyOnload" data-pw-auth="600492d9a1f8f150cc69b5b5329e9cc2">
           {`
             (function(i,s,o,g,r,a,m){i[o]=i[o]||function(){(i[o].q=i[o].q||[]).push(arguments)};
