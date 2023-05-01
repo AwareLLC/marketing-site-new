@@ -58,9 +58,7 @@ export default function Document(props) {
 
       </Head>
       <body className="flex h-full flex-col">
-				<img height="1" width="1" style="display:none"
-				src="https://www.facebook.com/tr?id=630691228939385&ev=PageView&noscript=1"
-				/>
+				<img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=630691228939385&ev=PageView&noscript=1" />
         <Main />
         <NextScript />
         <Script id="google-analytics" strategy="afterInteractive">
