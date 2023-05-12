@@ -41,7 +41,7 @@ function MobileNavigation() {
             <MobileNavLink href="/#testimonials">Testimonials</MobileNavLink>
             <MobileNavLink href="/#pricing">Pricing</MobileNavLink>
             <hr className="m-2 border-slate-300/40" />
-            <MobileNavLink href="https://app.useaware.co">Sign in</MobileNavLink>
+            <MobileNavLink href="#pricing">Sign in</MobileNavLink>
           </Popover.Panel>
         </Transition.Child>
       </Transition.Root>
@@ -68,7 +68,7 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="https://app.useaware.co">Sign in</NavLink>
             </div>
-            <Button href="https://app.useaware.co/users/sign_up" color="blue">
+            <Button href="#pricing" color="blue">
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>

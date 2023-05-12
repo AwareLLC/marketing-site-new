@@ -5,29 +5,44 @@ import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
 import backgroundImage from '@/images/background-features.jpg'
-import screenshotContentEngagement from '@/images/screenshots/content-post-analytics.png'
-import screenshotContentAnalytics from '@/images/screenshots/analytics-posts.png'
-import screenshotTopLeads from '@/images/screenshots/analytics-top-leads.png'
+import screenshotContentEngagement from '@/images/screenshots/content-performance.png'
+import screenshotContentFullAnalytics from '@/images/screenshots/dashboard-full.png'
+import screenshotContentAnalytics from '@/images/screenshots/dashboard.png'
+import screenshotTopLeads from '@/images/screenshots/top-leads.png'
 import screenshotEngagementActivity from '@/images/screenshots/analytics-outbound.png'
+import screenshotTeamBreakdown from '@/images/screenshots/team-breakdown.png'
+import screenshotMain from '@/images/screenshots/main.png'
 
 const features = [
   {
-    title: 'Content analytics',
+    title: 'Your LinkedIn super power',
     description:
-      "See at a glance how your content is performing, or dive deep to know what to do more of.",
+      "Comprehensive analytics and engagement tools",
+    image: screenshotMain,
+  },
+  {
+    title: 'Individual and team analytics',
+    description:
+      "See your growth at a glance, or in depth, across team members and date ranges",
     image: screenshotContentAnalytics,
   },
   {
-    title: 'Content engagement insights',
+    title: 'Content and engagement performance',
     description:
       "Track comments and likes on your content as a whole, or on individual posts.",
     image: screenshotContentEngagement,
   },
+  // {
+  //   title: 'Engagement activity',
+  //   description:
+  //     "Stay on top of your engagement goals with our outbound engagement reporting.",
+  //   image: screenshotEngagementActivity,
+  // },
   {
-    title: 'Engagement activity',
+    title: 'Team engagement breakdown',
     description:
-      "Stay on top of your engagement goals with our outbound engagement reporting.",
-    image: screenshotEngagementActivity,
+      "See actitivity across your team, over time",
+    image: screenshotTeamBreakdown,
   },
   {
     title: 'Top leads insights',

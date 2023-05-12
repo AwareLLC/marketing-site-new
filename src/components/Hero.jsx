@@ -27,7 +27,7 @@ export function Hero() {
       </h1>
       <p className="mx-auto mt-6 max-w-2xl text-lg tracking-tight text-slate-700">Engage as yourself <b>or your business pages</b>.</p>
       <div className="mt-10 flex justify-center gap-x-6">
-        <Button href="https://app.useaware.co/users/sign_up">Get started</Button>
+        <Button href="#pricing">Get started</Button>
         {/* 
         <Button href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" variant="outline">
         <svg aria-hidden="true" className="h-3 w-3 flex-none fill-primary group-active:fill-current">
